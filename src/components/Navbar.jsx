@@ -35,7 +35,7 @@ const Navbar = () => {
 					<button className="text-gray-500">Login</button>
 					<Button text="Sign Up" rounded="rounded-full" textSize="text-sm" />
 				</div>
-				<div onClick={toggleMenuState}>
+				<div className="md:hidden" onClick={toggleMenuState}>
 					{isOpen ? (
 						<GrClose className="text-3xl text-gray-500" />
 					) : (
